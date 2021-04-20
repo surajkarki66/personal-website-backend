@@ -10,6 +10,15 @@ const projects = [
     githubURL: "https://github.com/surajkarki66/mdb-website",
   },
   {
+    title: "Burger King",
+    imageURL: "https://surajkarki.herokuapp.com/uploads/burgerking.jpg",
+    websiteURL: "https://burgerking66.herokuapp.com/",
+    description:
+      "This the single page web application. From this web app you can create your own burger and order the burger.",
+    technology: "React.js • Javascript • Node.js • Firebase • CSS",
+    githubURL: "https://github.com/surajkarki66/React-Works",
+  },
+  {
     title: "Blogging Site",
     imageURL: "https://surajkarki.herokuapp.com/uploads/myblog.jpg",
     websiteURL: "https://surajkarki66.pythonanywhere.com/",
@@ -26,14 +35,7 @@ const projects = [
     technology: "HTML5 • CSS3 • Javascript • JQuery • Bootstrap5",
     githubURL: "https://github.com/surajkarki66/The-killer-Project",
   },
-  {
-    title: "Burger King",
-    imageURL: "https://surajkarki.herokuapp.com/uploads/burgerking.jpg",
-    description:
-      "This the single page web application. From this web app you can create your own burger and order the burger.",
-    technology: "React.js • Javascript • Node.js • Firebase • CSS",
-    githubURL: "https://github.com/surajkarki66/React-Works",
-  },
+
   {
     title: "Amazon-Clone",
     imageURL: "https://surajkarki.herokuapp.com/uploads/amazon-clone.jpg",
