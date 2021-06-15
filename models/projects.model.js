@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "Short IT",
+    imageURL: "https://surajkarki.herokuapp.com/uploads/shortit6.png",
+    websiteURL: "https://shortit6.herokuapp.com/",
+    description:
+      "This is the website that is simple and fast to short your freaking long url. It's primary focus is on user's privacy. It is an open source website.",
+    technology: "React.js • Antd • Node.js • Express.js • MongoDB",
+    githubURL: "https://github.com/surajkarki66/shortIT",
+  },
+  {
     title: "Movie DB",
     imageURL: "https://surajkarki.herokuapp.com/uploads/movie-db.jpg",
     websiteURL: "http://moviedb66.herokuapp.com/",
