@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Movie DB",
     imageURL: "https://surajkarki.herokuapp.com/uploads/movie-db.jpg",
-    websiteURL: "http://moviedb66.herokuapp.com/",
+    websiteURL: "moviedb6.netlify.app/",
     description:
       "This is the website looks like IMDB, Which is the web app for movie lovers. It shows all lists and details of movies. You can also make the movie favourite and can comment on movie.",
     technology:
