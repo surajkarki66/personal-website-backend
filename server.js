@@ -60,7 +60,7 @@ if (process.env.NODE_ENV === "production") {
   );
 }
 
-// routes
+// Routes
 app.use("/contact", contactRouter);
 app.use("/project", projectRouter);
 const port = process.env.PORT || 5000;
