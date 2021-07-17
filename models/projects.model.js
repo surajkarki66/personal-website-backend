@@ -15,7 +15,7 @@ const projects = [
     description:
       "This is the website looks like IMDB, Which is the web app for movie lovers. It shows all lists and details of movies. You can also make the movie favourite and can comment on movie.",
     technology:
-      "React.js • Redux • Thunk • Node.js • Express.js • MongoDB • Movie API",
+      "React.js • Redux • Node.js • Express.js • MongoDB • Movie API",
     githubURL: "https://github.com/surajkarki66/moviedb",
   },
   {
@@ -48,9 +48,9 @@ const projects = [
   {
     title: "Amazon-Clone",
     imageURL: "https://surajkarki.herokuapp.com/uploads/amazon-clone.jpg",
-    description: "This is a Ecommerce website that looks like amazon.",
+    description: "This is a Ecommerce website that looks like amazon. It is was built in MERN stack.",
     technology:
-      "React.js • Redux • Node.js • JSON Web Tokens • Express.js • Formink • mongoose • MongoDB",
+      "React.js • Redux • Node.js • JSON Web Tokens • Express.js • Formink • mongoose",
     githubURL: "https://github.com/surajkarki66/Amazon-Clone-MERN",
   },
   {
