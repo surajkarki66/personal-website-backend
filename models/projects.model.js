@@ -44,15 +44,6 @@ const projects = [
     technology: "HTML5 • CSS3 • Javascript • JQuery • Bootstrap5",
     githubURL: "https://github.com/surajkarki66/The-killer-Project",
   },
-
-  {
-    title: "Amazon-Clone",
-    imageURL: "https://surajkarki.herokuapp.com/uploads/amazon-clone.jpg",
-    description: "This is a Ecommerce website that looks like amazon. It is was built in MERN stack.",
-    technology:
-      "React.js • Redux • Node.js • JSON Web Tokens • Express.js • Formink • mongoose",
-    githubURL: "https://github.com/surajkarki66/Amazon-Clone-MERN",
-  },
   {
     title: "Contact Manager",
     imageURL: "https://surajkarki.herokuapp.com/uploads/contact-manager.jpg",
