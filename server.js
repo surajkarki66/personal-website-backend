@@ -37,7 +37,7 @@ app.use(
   })
 );
 
-// Static dir
+// Static directory
 app.use("/uploads", express.static("uploads"));
 
 // Config for only development
