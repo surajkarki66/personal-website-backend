@@ -1,5 +1,37 @@
 const projects = [
   {
+    title: "PTop",
+    imageURL: "https://surajkarki.herokuapp.com/uploads/PTop.png",
+    description:
+      "This is a cross-platform desktop application to check and monitor your system. This is built with help of electron.js framework.",
+    technology: "Electron • HTML • CSS • Javascript",
+    githubURL: "https://github.com/surajkarki66/PTop",
+  },
+  {
+    title: "ImageCompressor",
+    imageURL: "https://surajkarki.herokuapp.com/uploads/imagecompressor.png",
+    description:
+      "This is a cross platform desktop application to shrink the size of image. You can select large size image and compress the image saved it to the desktop.",
+    technology: "Electron • HTML • CSS • Javascript",
+    githubURL: "https://github.com/surajkarki66/image-compressor",
+  },
+  {
+    title: "Cryptodex",
+    imageURL: "https://surajkarki.herokuapp.com/uploads/cryptodex.png",
+    description:
+      "A CLI based application built with Typescript to check the pricing of crypto coins. You can install this using npm or yarn.",
+    technology: "Node.js • Commander • Chalk • Javascript • Inquirer",
+    githubURL: "https://github.com/surajkarki66/cryptodex",
+  },
+  {
+    title: "Rpass",
+    imageURL: "https://surajkarki.herokuapp.com/uploads/rpass.png",
+    description:
+      "A CLI based application built with Python for generating strong random passwords. It also shows all the passwords you generated. ",
+    technology: "Python • CLI • Click • Random • Password",
+    githubURL: "https://github.com/surajkarki66/rpass",
+  },
+  {
     title: "Short IT",
     imageURL: "https://surajkarki.herokuapp.com/uploads/shortit6.png",
     websiteURL: "https://shortit6.herokuapp.com/",
@@ -14,8 +46,7 @@ const projects = [
     websiteURL: "https://moviedb6.netlify.app/",
     description:
       "This is the website looks like IMDB, Which is the web app for movie lovers. It shows all lists and details of movies. You can also make the movie favourite and can comment on movie.",
-    technology:
-      "React.js • Redux • Node.js • Express.js • MongoDB • Movie API",
+    technology: "React.js • Redux • Node.js • Express.js • MongoDB • Movie API",
     githubURL: "https://github.com/surajkarki66/moviedb",
   },
   {
