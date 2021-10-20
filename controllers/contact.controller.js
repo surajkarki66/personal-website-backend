@@ -22,15 +22,18 @@ const sendEmailController = (req, res) => {
       );
     else res.send(`Thanks for reaching out ${req.body.name}.`);
   });
-  const msg = {
-    to: process.env.emailAddress,
-    from: req.body.email,
-    emailAddress: req.body.email,
-    subject: req.body.subject,
-    text: req.body.message,
-    html: `<h1>from: ${req.body.name}</h1>
-		  <p>${req.body.message}</p>`,
-  };
+
+  // TODO: Send email to customer using SendGrid or Mailchimp
+
+  // const msg = {
+  //   to: process.env.emailAddress,
+  //   from: req.body.email,
+  //   emailAddress: req.body.email,
+  //   subject: req.body.subject,
+  //   text: req.body.message,
+  //   html: `<h1>from: ${req.body.name}</h1>
+  // 	  <p>${req.body.message}</p>`,
+  // };
   // send message.
 };
 
