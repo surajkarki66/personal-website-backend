@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const { Schema } = mongoose;
 
-const constactSchema = new Schema({
+const contactSchema = new Schema({
   from: String,
   emailAddress: String,
   subjectLine: String,
@@ -9,5 +9,5 @@ const constactSchema = new Schema({
   date: Date,
 });
 
-const contact = mongoose.model("contacts", constactSchema);
+const contact = mongoose.model("contacts", contactSchema);
 export default contact;

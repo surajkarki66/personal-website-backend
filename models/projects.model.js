@@ -3,16 +3,16 @@ const projects = [
     title: "PTop",
     imageURL: "https://surajkarki.herokuapp.com/uploads/PTop.png",
     description:
-      "This is a cross-platform desktop application to check and monitor your system. This is built with help of electron.js framework.",
-    technology: "Electron • HTML • CSS • Javascript",
+      "This is a cross-platform desktop application to check RAM and CPU usage of your system and monitor your system.This is built with help of electron.js framework.",
+    technology: "Electron • HTML • CSS • Javascript • Node.js",
     githubURL: "https://github.com/surajkarki66/PTop",
   },
   {
     title: "ImageCompressor",
     imageURL: "https://surajkarki.herokuapp.com/uploads/imagecompressor.png",
     description:
-      "This is a cross platform desktop application to shrink the size of image. You can select large size image and compress the image saved it to the desktop.",
-    technology: "Electron • HTML • CSS • Javascript",
+      "This is a cross platform desktop application to shrink the size of image. You can select large sized image and compress the image and saved it in your system.",
+    technology: "Electron • HTML • CSS • Javascript • Node.js",
     githubURL: "https://github.com/surajkarki66/image-compressor",
   },
   {
