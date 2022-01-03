@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Glasir",
+    imageURL: "https://surajkarki.herokuapp.com/uploads/glasir.png",
+    description:
+      "Glasir is a Nepali freelancing platform. Here you can find jobs and also applied for job as freelancer. As employer you can also hire freelancer for your jobs.",
+    technology: "React.js • MaterialUI • Express.js • MongoDB • Node.js",
+    githubURL: "https://github.com/surajkarki66/glasir",
+  },
+  {
     title: "PTop",
     imageURL: "https://surajkarki.herokuapp.com/uploads/PTop.png",
     description:
