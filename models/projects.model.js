@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Lucy",
+    imageURL: "https://surajkarki.herokuapp.com/uploads/lucy.png",
+    description:
+      "Lucy is an NLP-Powered chatbot that can interact with humans, and give the answer to the question which is related to Nepal Engineering College.",
+    technology: "React.js • MaterialUI • FastAPI • PostgreSQL • PyTorch",
+    githubURL: "https://github.com/surajkarki66/Lucy-Backend.git",
+  },
+  {
     title: "Glasir",
     imageURL: "https://surajkarki.herokuapp.com/uploads/glasir.png",
     description:
@@ -94,3 +102,4 @@ const projects = [
 ];
 
 export default projects;
+
