@@ -81,7 +81,7 @@ const projects = [
     description:
       "This the single page web application. From this web app you can create your own burger and order the burger.",
     technology: "React.js • Javascript • Node.js • Firebase • CSS",
-    githubURL: "https://github.com/surajkarki66/React-Works",
+    githubURL: "https://github.com/surajkarki66/burger-king.git",
   },
   {
     title: "Blogging Site",
