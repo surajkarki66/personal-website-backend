@@ -91,7 +91,7 @@ const projects = [
     description:
       "This is simple website for blogging, but only creator can create the blog. Other people can see and comments on those blogs.",
     technology: "Django • HTML • Bootstrap CSS • Javascript • JQuery",
-    githubURL: "https://github.com/surajkarki66/myblog",
+    githubURL: "https://github.com/surajkarki66/personal-blog-site.git",
   },
   {
     title: "The Killer Project",
