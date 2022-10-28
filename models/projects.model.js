@@ -57,7 +57,7 @@ const projects = [
     title: "Short IT",
     imageURL:
       "https://personal-website-backend-production.up.railway.app/uploads/shortit6.png",
-    websiteURL: "https://shortit6.herokuapp.com/",
+    websiteURL: "https://web-production-1f15.up.railway.app/",
     description:
       "This is the website that is simple and fast to short your freaking long url. It's primary focus is on user's privacy. It is an open source website.",
     technology: "React.js • Antd • Node.js • Express.js • MongoDB",
