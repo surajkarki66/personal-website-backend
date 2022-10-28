@@ -15,6 +15,7 @@ const sendEmailController = async (req, res) => {
     html: `
                 <h1>Thank you for contacting me</h1>
                 <p>You can talk with me in my personal email, github, or linkedin.I hope that i can do something special to you. Lets work together and build something new. Please don't reply in this email address.</p>
+                <p>My personal email is suraj.karki600@protonmail.com</p>
             `,
   };
   const transporter = await nodeMailer();
