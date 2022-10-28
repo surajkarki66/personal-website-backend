@@ -9,7 +9,7 @@ const sendEmailController = (req, res) => {
     return res.status(422).json({ errors: errors.array() });
   }
   const mailOptions = {
-    from: process.env.email,
+    from: process.env.EMAIL,
     to: req.body.email,
     subject: req.body.subject,
     html: `
