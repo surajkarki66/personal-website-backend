@@ -77,7 +77,7 @@ const projects = [
     title: "Burger King",
     imageURL:
       "https://personal-website-backend-production.up.railway.app/uploads/burgerking.jpg",
-    websiteURL: "https://burgerking66.herokuapp.com/",
+    websiteURL: "https://burger-king-production.up.railway.app/",
     description:
       "This the single page web application. From this web app you can create your own burger and order the burger.",
     technology: "React.js • Javascript • Node.js • Firebase • CSS",
