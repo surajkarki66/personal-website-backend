@@ -33,7 +33,7 @@ const sendEmailController = async (req, res) => {
     contact.save(function (err, doc) {
       if (err)
         res.json(
-          'Whoops! I\'m sorry, an error happened while sending your message. Please send a message directly to <a href="mailto:suraj.karki500@gmail.com">suraj.karki500@gmail.com'
+          'Whoops! I\'m sorry, an error happened while sending your message.'
         );
       else res.send(`Thanks for reaching out ${req.body.name}.`);
     });
