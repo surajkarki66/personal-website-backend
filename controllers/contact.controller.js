@@ -3,7 +3,7 @@ import { validationResult } from "express-validator";
 import Contact from "../models/contacts.model";
 import nodeMailer from "../configs/nodemailer";
 
-const sendEmailController = (req, res) => {
+const sendEmailController = async (req, res) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(422).json({ errors: errors.array() });
@@ -17,7 +17,8 @@ const sendEmailController = (req, res) => {
                 <p>You can talk with me in my personal email, github, or linkedin.I hope that i can do something special to you. Lets work together and build something new. Please don't reply in this email address.</p>
             `,
   };
-  nodeMailer().sendMail(mailOptions, (error, _body) => {
+  const transporter = await nodeMailer();
+  transporter.sendMail(mailOptions, (error, _body) => {
     if (error) {
       return res.status(500).json({ error: error.message });
     }
