@@ -1,8 +1,7 @@
 const projects = [
   {
     title: "Lucy",
-    imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/lucy.png",
+    imageURL: "https://personal-web-api-0xa6.onrender.com/uploads/lucy.png",
     description:
       "Lucy is an NLP-Powered chatbot that can interact with humans, and give the answer to the question which is related to Nepal Engineering College.",
     technology: "React.js • MaterialUI • FastAPI • PostgreSQL • PyTorch",
@@ -10,8 +9,7 @@ const projects = [
   },
   {
     title: "Glasir",
-    imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/glasir.png",
+    imageURL: "https://personal-web-api-0xa6.onrender.com/uploads/glasir.png",
     description:
       "Glasir is a Nepali freelancing platform. Here you can find jobs and also applied for job as freelancer. As employer you can also hire freelancer for your jobs.",
     technology: "React.js • MaterialUI • Express.js • MongoDB • Node.js",
@@ -19,8 +17,7 @@ const projects = [
   },
   {
     title: "PTop",
-    imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/PTop.png",
+    imageURL: "https://personal-web-api-0xa6.onrender.com/uploads/PTop.png",
     description:
       "This is a cross-platform desktop application to check RAM and CPU usage of your system and monitor your system.This is built with help of electron.js framework.",
     technology: "Electron • HTML • CSS • Javascript • Node.js",
@@ -29,7 +26,7 @@ const projects = [
   {
     title: "ImageCompressor",
     imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/imagecompressor.png",
+      "https://personal-web-api-0xa6.onrender.com/uploads/imagecompressor.png",
     description:
       "This is a cross platform desktop application to shrink the size of image. You can select large sized image and compress the image and saved it in your system.",
     technology: "Electron • HTML • CSS • Javascript • Node.js",
@@ -38,7 +35,7 @@ const projects = [
   {
     title: "Cryptodex",
     imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/cryptodex.png",
+      "https://personal-web-api-0xa6.onrender.com/uploads/cryptodex.png",
     description:
       "A CLI based application built with Typescript to check the pricing of crypto coins. You can install this using npm or yarn.",
     technology: "Node.js • Commander • Chalk • Javascript • Inquirer",
@@ -46,8 +43,7 @@ const projects = [
   },
   {
     title: "Rpass",
-    imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/rpass.png",
+    imageURL: "https://personal-web-api-0xa6.onrender.com/uploads/rpass.png",
     description:
       "A CLI based application built with Python for generating strong random passwords. It also shows all the passwords you generated. ",
     technology: "Python • CLI • Click • Random • Password",
@@ -55,8 +51,7 @@ const projects = [
   },
   {
     title: "Short IT",
-    imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/shortit6.png",
+    imageURL: "https://personal-web-api-0xa6.onrender.com/uploads/shortit6.png",
     websiteURL: "https://web-production-1f15.up.railway.app/",
     description:
       "This is the website that is simple and fast to short your freaking long url. It's primary focus is on user's privacy. It is an open source website.",
@@ -65,8 +60,7 @@ const projects = [
   },
   {
     title: "Movie DB",
-    imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/movie-db.jpg",
+    imageURL: "https://personal-web-api-0xa6.onrender.com/uploads/movie-db.jpg",
     websiteURL: "https://moviedb6.netlify.app/",
     description:
       "This is the website looks like IMDB, Which is the web app for movie lovers. It shows all lists and details of movies. You can also make the movie favourite and can comment on movie.",
@@ -76,7 +70,7 @@ const projects = [
   {
     title: "Burger King",
     imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/burgerking.jpg",
+      "https://personal-web-api-0xa6.onrender.com/uploads/burgerking.jpg",
     websiteURL: "https://burger-king-production.up.railway.app/",
     description:
       "This the single page web application. From this web app you can create your own burger and order the burger.",
@@ -85,8 +79,7 @@ const projects = [
   },
   {
     title: "Blogging Site",
-    imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/myblog.jpg",
+    imageURL: "https://personal-web-api-0xa6.onrender.com/uploads/myblog.jpg",
     websiteURL: "https://surajkarki66.pythonanywhere.com/",
     description:
       "This is simple website for blogging, but only creator can create the blog. Other people can see and comments on those blogs.",
@@ -96,7 +89,7 @@ const projects = [
   {
     title: "The Killer Project",
     imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/killer-project.jpg",
+      "https://personal-web-api-0xa6.onrender.com/uploads/killer-project.jpg",
     description:
       "This is just simple project which gives you details about an app called OMNI Food.",
     technology: "HTML5 • CSS3 • Javascript • JQuery • Bootstrap5",
@@ -105,7 +98,7 @@ const projects = [
   {
     title: "Contact Manager",
     imageURL:
-      "https://personal-website-backend-production.up.railway.app/uploads/contact-manager.jpg",
+      "https://personal-web-api-0xa6.onrender.com/uploads/contact-manager.jpg",
     description:
       "This is gui application built in Python.This application manages your contact information. You can create contacts, delete contacts and update contacts.",
     technology: "Python • Tkinter • SQlite • ",
