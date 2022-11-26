@@ -71,7 +71,7 @@ const projects = [
     title: "Burger King",
     imageURL:
       "https://personal-web-api-0xa6.onrender.com/uploads/burgerking.jpg",
-    websiteURL: "https://burger-king-production.up.railway.app/",
+    websiteURL: "https://burger-king.vercel.app/",
     description:
       "This the single page web application. From this web app you can create your own burger and order the burger.",
     technology: "React.js • Javascript • Node.js • Firebase • CSS",
