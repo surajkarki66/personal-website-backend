@@ -33,10 +33,30 @@ const sendEmailController = async (req, res) => {
     contact.save(function (err, doc) {
       if (err)
         res.json(
-          'Whoops! I\'m sorry, an error happened while sending your message.'
+          "Whoops! I'm sorry, an error happened while sending your message."
         );
       else res.send(`Thanks for reaching out ${req.body.name}.`);
     });
   });
 };
-export { sendEmailController };
+
+const getContactsController = async (req, res) => {
+  try {
+    const { page, perPage } = req.query;
+    const pageNumber = parseInt(page) || 1;
+    const contactsPerPage = parseInt(perPage) || 10;
+
+    const skipCount = (pageNumber - 1) * contactsPerPage;
+    const contacts = await Contact.find()
+      .skip(skipCount)
+      .limit(contactsPerPage);
+    const count = contacts.length;
+    return res
+      .status(200)
+      .json({ success: true, contacts, pageNumber, contactsPerPage, count });
+  } catch (error) {
+    return res.status(500).json({ success: false, error });
+  }
+};
+
+export { sendEmailController, getContactsController };
