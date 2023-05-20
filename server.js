@@ -6,7 +6,6 @@ import compression from "compression";
 
 import connectDB from "./configs/db";
 import contactRouter from "./routes/contact.route";
-import projectRouter from "./routes/project.route";
 
 const app = express();
 
@@ -62,7 +61,6 @@ if (process.env.NODE_ENV === "production") {
 
 // Routes
 app.use("/contact", contactRouter);
-app.use("/project", projectRouter);
 
 const port = process.env.PORT || 5000;
 
