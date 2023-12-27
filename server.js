@@ -64,7 +64,7 @@ app.use("/contact", contactRouter);
 app.use("/", (_, res) => {
   return res
     .status(200)
-    .json({ success: true, message: "API is successfully working!" });
+    .json({ success: true, message: "Welcome to the Personal Website APIs!!!" });
 })
 
 const port = process.env.PORT || 5000;
