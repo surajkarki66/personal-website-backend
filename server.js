@@ -61,6 +61,11 @@ if (process.env.NODE_ENV === "production") {
 
 // Routes
 app.use("/contact", contactRouter);
+app.use("/", (_, res) => {
+  return res
+    .status(200)
+    .json({ success: true, message: "API is successfully working!" });
+})
 
 const port = process.env.PORT || 5000;
 
